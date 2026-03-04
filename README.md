@@ -8,7 +8,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li>Drag ingredients from the left panel into the cup</li>
   <li>Watch your ingredients layer inside the cup in real time</li>
   <li>After 2 seconds, the liquid ingredients blend together into a realistic mixed color</li>
-  <li>Hit <strong>Serve</strong> to score a point — match a recipe for a bonus!</li>
+  <li>Hit <strong>Serve</strong> to score a point (match a recipe for a bonus)!</li>
   <li>Hit <strong>Clear</strong> to start fresh</li>
 </ol>
 <hr>

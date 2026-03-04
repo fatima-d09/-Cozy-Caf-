@@ -1,7 +1,7 @@
 # ☕ Cozy Café
 A cute, cozy drag-and-drop drink-building game built with vanilla HTML, CSS, and JavaScript. Mix lattes, teas, matcha drinks, and more. With realistic color blending, layered physics, and fun topping animations.
 
-Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" target="_blank:>Click Here</a></strong>
+Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" target="_blank">Click Here</a></strong>
 <hr>
 <h2>🎮 How to Play</h2>
 <ol>

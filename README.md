@@ -25,7 +25,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
 </table>
 <hr>
 <h2>🎨 Color Mixing</h2>
-<p>Colors are blended using <strong>OKLab</strong>, a perceptually uniform color space that mirrors how the human eye perceives color — not just raw RGB averaging.</p>
+<p>Colors are blended using <strong>OKLab</strong>, a perceptually uniform color space that mirrors how the human eye perceives color (not just raw RGB averaging).</p>
 <p>Volume weights determine how much each ingredient influences the final color:</p>
 <ul>
   <li><strong>Base</strong> (espresso, matcha, tea) — concentrated, strong hue</li>

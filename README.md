@@ -96,7 +96,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
 <hr>
 <h2>🚀 Getting Started</h2>
 <p>No dependencies, no build tools needed.</p>
-<pre><code>open index.html</code></pre>
+<pre><code>open index-styles-script.html</code></pre>
 <p>Or drop the HTML file into any static hosting service (GitHub Pages, Netlify, Vercel, etc.).</p>
 <hr>
 <h2>💡 Possible Future Features</h2>

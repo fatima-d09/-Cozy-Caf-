@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cozy Café ☕</title>
+</head>
+<body>
+<h1>☕ Cozy Café</h1>
+<p class="subtitle">Drag ingredients into your cup and serve! 🌸</p>
+<div class="score-bar"><div>Served: <span id="served">0</span></div><div>Matched: <span id="matched">0</span></div></div>
+<div class="game-wrap">
+  <div class="ing-panel">
+    <h2>✨ Ingredients</h2>
+    <div class="ing-sec"><div class="ing-sec-title">☕ Coffee</div><div class="ing-grid" id="ig-coffee"></div></div>
+    <div class="ing-sec"><div class="ing-sec-title">🍵 Tea</div><div class="ing-grid" id="ig-tea"></div></div>
+    <div class="ing-sec"><div class="ing-sec-title">🥛 Milk</div><div class="ing-grid" id="ig-milk"></div></div>
+    <div class="ing-sec"><div class="ing-sec-title">🍬 Syrups</div><div class="ing-grid" id="ig-syrup"></div></div>
+    <div class="ing-sec"><div class="ing-sec-title">🎀 Toppings</div><div class="ing-grid" id="ig-topping"></div></div>
+  </div>
+
+  <div class="cup-area">
+    <div class="cup-svg-wrap">
+      <svg id="cupSvg" viewBox="0 0 240 320" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="cupClip">
+            <path d="M22,32 L46,290 Q50,304 80,304 L160,304 Q190,304 194,290 L218,32 Z"/>
+          </clipPath>
+        </defs>
+        <path d="M22,32 L46,290 Q50,304 80,304 L160,304 Q190,304 194,290 L218,32 Z" fill="#fdf4f8"/>
+        <g clip-path="url(#cupClip)">
+          <g id="bobaGroup"></g>
+          <g id="liquidGroup"></g>
+          <g id="foamGroup"></g>
+          <g id="toppingGroup"></g>
+        </g>
+        <path d="M22,32 L46,290 Q50,304 80,304 L160,304 Q190,304 194,290 L218,32 Z" fill="none" stroke="#dda0c0" stroke-width="4" stroke-linejoin="round"/>
+        <ellipse cx="120" cy="32" rx="98" ry="13" fill="#f8d8ec" stroke="#dda0c0" stroke-width="3"/>
+        <path d="M218,110 Q258,110 258,165 Q258,220 218,220" fill="none" stroke="#dda0c0" stroke-width="4" stroke-linecap="round"/>
+        <text id="hint1" x="120" y="168" text-anchor="middle" font-family="Nunito,sans-serif" font-size="13" fill="#e0a0c0">Drop ingredients</text>
+        <text id="hint2" x="120" y="186" text-anchor="middle" font-family="Nunito,sans-serif" font-size="13" fill="#e0a0c0">here! 🌸</text>
+      </svg>
+      <div id="dropOverlay"></div>
+    </div>
+    <div class="cup-label" id="cupLabel">Empty cup</div>
+    <div class="btn-row">
+      <button class="btn btn-serve" onclick="serve()">Serve ☕</button>
+      <button class="btn btn-clear" onclick="clearCup()">Clear 🗑️</button>
+    </div>
+  </div>
+
+  <div class="rec-panel">
+    <h2>📖 Recipes</h2>
+    <div id="recipeList"></div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+</body>
+</html>

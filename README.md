@@ -25,7 +25,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
 </table>
 <hr>
 <h2>🎨 Color Mixing</h2>
-<p>Colors are blended using <strong>OKLab</strong>, a perceptually uniform color space that mirrors how the human eye perceives color (not just raw RGB averaging).</p>
+<p>Colors are blended using <strong>OKLab</strong>, a uniform color space that mirrors how the human eye perceives color (not just raw RGB averaging).</p>
 <p>Volume weights determine how much each ingredient influences the final color:</p>
 <ul>
   <li><strong>Base</strong> (espresso, matcha, tea) — concentrated, strong hue</li>
@@ -90,7 +90,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li><strong>CSS3</strong> — responsive layout with clamp(), media breakpoints, keyframe animations</li>
   <li><strong>SVG</strong> — cup rendering with clipPath for clean liquid containment</li>
   <li><strong>Vanilla JavaScript</strong> — all game logic, color math, drag-and-drop</li>
-  <li><strong>OKLab color space</strong> — perceptually accurate color blending</li>
+  <li><strong>OKLab color space</strong> — accurate color blending</li>
   <li><strong>Touch polyfill</strong> — custom touch event handler for mobile drag support</li>
 </ul>
 <hr>

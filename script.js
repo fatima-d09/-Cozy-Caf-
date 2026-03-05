@@ -43,9 +43,7 @@
   document.addEventListener('touchmove',touchMove,{passive:false});
   document.addEventListener('touchend',touchEnd);
 })();
-</script>
 
-<script>
 const NS='http://www.w3.org/2000/svg';
 const TOP_Y=44,BOT_Y=300,CUP_H=BOT_Y-TOP_Y;
 function cupEdges(y){const t=(y-TOP_Y)/CUP_H;return{left:22+(46-22)*t,right:218+(194-218)*t};}

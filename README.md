@@ -3,7 +3,7 @@ A drag-and-drop drink-building game. Mix lattes, teas, matcha drinks, and more. 
 
 Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" target="_blank">Click Here</a></strong>
 <hr>
-<h2>🎮 How to Play</h2>
+<h2>How to Play</h2>
 <ol>
   <li>Drag ingredients from the left panel into the cup</li>
   <li>Watch your ingredients layer inside the cup in real time</li>
@@ -12,7 +12,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li>Hit <strong>Clear</strong> to start fresh</li>
 </ol>
 <hr>
-<h2>🧪 Layering Physics</h2>
+<h2>Layering Physics</h2>
 <p>Ingredients follow real-world drink rules:</p>
 <table>
   <thead><tr><th>Layer</th><th>Position</th><th>Ingredients</th></tr></thead>
@@ -24,7 +24,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   </tbody>
 </table>
 <hr>
-<h2>🎨 Color Mixing</h2>
+<h2>Color Mixing</h2>
 <p>Colors are blended using <strong>OKLab</strong>, a uniform color space that mirrors how the human eye perceives color (not just raw RGB averaging).</p>
 <p>Volume weights determine how much each ingredient influences the final color:</p>
 <ul>
@@ -41,7 +41,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li>Lavender + Milk → soft lilac</li>
 </ul>
 <hr>
-<h2>🎀 Toppings</h2>
+<h2>Toppings</h2>
 <table>
   <thead><tr><th>Topping</th><th>Visual</th></tr></thead>
   <tbody>
@@ -54,7 +54,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
 </table>
 <p><strong>Shaker animation:</strong> Dropping cinnamon, rose petals, or sprinkles triggers a tilted shaker that appears above the cup and shakes for 3 seconds.</p>
 <hr>
-<h2>📖 Recipes (15 total)</h2>
+<h2>Recipes (15 total)</h2>
 <table>
   <thead><tr><th>Drink</th><th>Ingredients</th></tr></thead>
   <tbody>
@@ -76,7 +76,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   </tbody>
 </table>
 <hr>
-<h2>📱 Responsive Design</h2>
+<h2>Responsive Design</h2>
 <ul>
   <li><strong>Desktop</strong> — three-column layout (ingredients / cup / recipes)</li>
   <li><strong>Tablet</strong> — panels shrink fluidly with clamp()</li>
@@ -84,7 +84,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li><strong>Touch support</strong> — full touch drag-and-drop polyfill for mobile devices</li>
 </ul>
 <hr>
-<h2>🛠️ Tech Stack</h2>
+<h2>Tech Stack</h2>
 <ul>
   <li><strong>HTML5</strong> — single file, no build step</li>
   <li><strong>CSS3</strong> — responsive layout with clamp(), media breakpoints, keyframe animations</li>
@@ -94,17 +94,17 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li><strong>Touch polyfill</strong> — custom touch event handler for mobile drag support</li>
 </ul>
 <hr>
-<h2>🚀 Getting Started</h2>
+<h2>Getting Started</h2>
 <p>No dependencies, no build tools needed.</p>
 <pre><code>open index-styles-script.html</code></pre>
 <p>Or drop the HTML file into any static hosting service (GitHub Pages, Netlify, Vercel, etc.).</p>
 <hr>
 <h2>💡 Possible Future Features</h2>
 <ul>
-  <li>👤 Customer order system with requests and ratings</li>
-  <li>⏱️ Timed café rush mode</li>
-  <li>🔊 Sound effects (pouring, shaking, serving)</li>
-  <li>🌡️ Hot vs iced drink toggle</li>
-  <li>🏆 Leaderboard / high score tracking</li>
-  <li>🧋 More drink types (smoothies, lemonade, hot chocolate)</li>
+  <li>Customer order system with requests and ratings</li>
+  <li>Timed café rush mode</li>
+  <li>Sound effects (pouring, shaking, serving)</li>
+  <li>Hot vs iced drink toggle</li>
+  <li>Leaderboard / high score tracking</li>
+  <li>More drink types (smoothies, lemonade, hot chocolate)</li>
 </ul>

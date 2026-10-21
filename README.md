@@ -79,12 +79,12 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
 <hr>
 <h2>Tech Stack</h2>
 <ul>
-  <li><strong>HTML5</strong> — single file, no build step</li>
-  <li><strong>CSS3</strong> — responsive layout with clamp(), media breakpoints, keyframe animations</li>
-  <li><strong>SVG</strong> — cup rendering with clipPath for clean liquid containment</li>
-  <li><strong>Vanilla JavaScript</strong> — all game logic, color math, drag-and-drop</li>
-  <li><strong>OKLab color space</strong> — accurate color blending</li>
-  <li><strong>Touch polyfill</strong> — custom touch event handler for mobile drag support</li>
+  <li><strong>HTML5</strong></li>
+  <li><strong>CSS3</strong></li>
+  <li><strong>SVG</strong></li>
+  <li><strong>Vanilla JavaScript</strong></li>
+  <li><strong>OKLab color space</strong></li>
+  <li><strong>Touch polyfill</strong></li>
 </ul>
 <hr>
 <h2>How to get started</h2>

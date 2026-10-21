@@ -1,5 +1,5 @@
 # ☕ Cozy Café
-A drag-and-drop drink-building game. Mix lattes, teas, matcha drinks, and more. With realistic color blending, layered physics, and fun topping animations.
+A drag-and-drop drink-building game. 
 
 Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" target="_blank">Click Here</a></strong>
 <hr>
@@ -76,13 +76,6 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   </tbody>
 </table>
 <hr>
-<h2>Responsive Design</h2>
-<ul>
-  <li><strong>Desktop</strong> — three-column layout (ingredients / cup / recipes)</li>
-  <li><strong>Tablet</strong> — panels shrink fluidly with clamp()</li>
-  <li><strong>Mobile</strong> — stacks vertically; ingredients and recipes scroll independently</li>
-  <li><strong>Touch support</strong> — full touch drag-and-drop polyfill for mobile devices</li>
-</ul>
 <hr>
 <h2>Tech Stack</h2>
 <ul>
@@ -94,17 +87,7 @@ Link to Game: <strong><a href="https://codepen.io/fatima-d09/full/QwKygZN" targe
   <li><strong>Touch polyfill</strong> — custom touch event handler for mobile drag support</li>
 </ul>
 <hr>
-<h2>Getting Started</h2>
+<h2>How to get started</h2>
 <p>No dependencies, no build tools needed.</p>
 <pre><code>open index-styles-script.html</code></pre>
 <p>Or drop the HTML file into any static hosting service (GitHub Pages, Netlify, Vercel, etc.).</p>
-<hr>
-<h2>💡 Possible Future Features</h2>
-<ul>
-  <li>Customer order system with requests and ratings</li>
-  <li>Timed café rush mode</li>
-  <li>Sound effects (pouring, shaking, serving)</li>
-  <li>Hot vs iced drink toggle</li>
-  <li>Leaderboard / high score tracking</li>
-  <li>More drink types (smoothies, lemonade, hot chocolate)</li>
-</ul>
